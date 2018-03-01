@@ -1,0 +1,25 @@
+{
+  "name": "box-packer-node",
+  "version": "1.0.0",
+  "description": "NodeJS port of 3D bin packing algorithm with weight limit.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/babel-minify/bin/minify.js src -d dist",
+    "build:prod": "BABEL_ENV=production npm run build",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:aleksandar-babic/box_packer_node.git"
+  },
+  "author": "Aleksandar Babic",
+  "licence": "MIT",
+  "homepage": "https://github.com/aleksandar-babic/box_packer_node#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-minify": "^0.3.0",
+    "babel-preset-es2015": "^6.24.1",
+    "jest": "^22.4.0"
+  }
+}
