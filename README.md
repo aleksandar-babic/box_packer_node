@@ -55,4 +55,4 @@ Module has its own package.json and in it scripts:
 3. test - runs Jest testing framework and all module unit tests once
 4. test:watch - runs Jest testing framework and all module unit tests on every file save(change)
 
-> Module is located at lib/box-packer-module.
+> Example (with same values as example from original repo) can be found in examples/example.js
