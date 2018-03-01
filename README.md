@@ -1,4 +1,4 @@
-# Box-Packer NodeJS module
+# Box-Packer NodeJS module [![Build Status](https://travis-ci.org/aleksandar-babic/box_packer_node.svg?branch=master)](https://travis-ci.org/aleksandar-babic/box_packer_node)
 This module is 1:1 port of Ruby box_packer gem (https://github.com/mushishi78/box_packer) written for NodeJS. Module can be required as every other node module using require() method.
 ```javascript
 # Minified version
